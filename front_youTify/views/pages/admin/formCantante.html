@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cantante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../public/estilos/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="navbar"></div>
+    <div class="form-container">
+        <h2 class="text-center mb-4">Agregar Cantante</h2>
+        <form id="formCancion">
+        <div class="mb-3">
+            <label for="nombreCantante" class="form-label">Nombre del Cantante</label>
+            <input type="text" class="form-control" id="nombreCantante" placeholder="Ejemplo: Antonio soliz, Axl Rose" >
+        </div>
+        <div class="mb-3">
+            <label for="nombreCantante" class="form-label">Subir Imagen</label>
+            <input type="file" class="form-control" id="nombreCantante" name="file" accept="image/*" onchange="previewImage(event)">
+            <img id="preview" class="preview-img d-none" alt="Previsualización de la imagen">
+        </div>
+        <div class="mb-3">
+            <label for="generoCantante" class="form-label">Género</label>
+            <select class="form-select" id="generoCantante" name="genero" required>
+                <option value="" disabled selected>Seleccione un género</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary w-100">Guardar</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../pages/Javascript/navbarAdmin.js"></script>
+    <script src = "../Javascript/vistaImg.js"></script>
+    <script src="../Javascript/crearCantante.js"></script>
+</body>
+</html>

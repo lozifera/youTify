@@ -1,0 +1,29 @@
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro con transparencia */
+    color: white; /* Texto blanco */
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Recorta la imagen para que encaje */
+    filter: brightness(0.8); /* Oscurece la imagen */
+    transition: filter 0.3s ease;
+}
+
+.card-img-top:hover {
+    filter: brightness(1); /* Aclara la imagen al pasar el cursor */
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}

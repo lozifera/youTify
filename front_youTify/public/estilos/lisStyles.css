@@ -1,0 +1,72 @@
+body {
+    background-color: #121212; /* Fondo oscuro general */
+    color: #fff; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+}
+
+h1 {
+    color: #1DB954; /* Verde Spotify */
+}
+
+.table {
+    background-color: #181818; /* Fondo oscuro para la tabla */
+    color: #fff; /* Texto blanco */
+}
+
+.table thead {
+    background-color: #282828; /* Fondo más oscuro para el encabezado */
+}
+
+.table-hover tbody tr:hover {
+    background-color: #1DB954; /* Resaltar fila al pasar el cursor */
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #1DB954;
+    border-color: #1DB954;
+}
+
+.btn-success:hover {
+    background-color: #1ed760;
+    border-color: #1ed760;
+}
+
+.btn-primary {
+    background-color: #535353;
+    border-color: #535353;
+}
+
+.btn-primary:hover {
+    background-color: #6c6c6c;
+    border-color: #6c6c6c;
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.btn-danger:hover {
+    background-color: #e53935;
+    border-color: #e53935;
+}
+
+.img-thumbnail {
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}

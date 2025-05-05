@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="/public/estilos/navbar.css">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">YouTify Admin</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../../pages/admin/homeAdmin.html">Inicio</a>
+                </li>
+                <!-- Menú desplegable para "Crear" -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="crearDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Crear
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="crearDropdown">
+                        <li><a class="dropdown-item" href="../../pages/admin/formCancion.html">Canción</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/formAlbun.html">Álbum</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/formGenero.html">Género</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/formCantante.html">Cantante</a></li>
+                    </ul>
+                </li>
+                <!-- Menú desplegable para "Visualizar" -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="visualizarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Visualizar
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="visualizarDropdown">
+                        <li><a class="dropdown-item" href="../../pages/admin/listCancionAd.html">Lista de Canciones</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/listAlbunAd.html">Lista de Álbumes</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/listGeneroAd.html">Lista de Géneros</a></li>
+                        <li><a class="dropdown-item" href="../../pages/admin/listCantanteAd.html">Lista de Cantantes</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
